@@ -59,7 +59,7 @@ describe('webdriver.io page', () => {
         console.log(elem.getText());
     });
 
-    xit ('test', () => {
+    it ('test', () => {
         browser.url('https://webdriver.io/');
         const Api = $('/html/body/div[1]/div/header/div/nav/ul/li[2]/a');
         Api.click();
